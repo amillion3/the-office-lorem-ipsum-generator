@@ -2,6 +2,8 @@
 const express = require('express');
 const app = express();
 
+// Export the app variable to be used in router.js
+module.exports.app = app;
 // Require the express routes defined in router.js
 const routes = require('./router');
 
