@@ -6,8 +6,8 @@ const app = express();
 const routes = require('./router');
 
 // Define the hostname and port where the server can be found
-const hostname = "127.0.0.1";
-const port = 3000;
+// const hostname = "127.0.0.1";
+// const port = 3000;
 
 // Define the directory where static files are found
 app.use(express.static('public'));
