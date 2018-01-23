@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 h1 {
-    font-family: 'Bungee Shade', cursive;
+    font-family: 'Rubik', sans-serif;
     text-align: center;
     color: rgb(24, 0, 158);
     font-size: 2.5em;
@@ -59,5 +59,5 @@ form input {
     background-color: red;
 }
 .placeholder-div{
-    /* background-color: red; */
+    border: none;
 }
