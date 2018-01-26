@@ -132,7 +132,7 @@ GenerateNewText.prototype.getAllParagraphs = function(numberOfParagraphs) {
     // Convert array into HTML string
     let paragraphHTML = "";
     allParagraphs.forEach(function (paragraph) {
-      paragraphHTML += "<p>" + paragraph + "</p>";
+      paragraphHTML += "<p>" + paragraph + "</p>" + "<br>" + "<br>";
     });
     return paragraphHTML;
   }

@@ -1,30 +1,33 @@
 <html>
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
-  <link href="https://www.andymillion.com/the-office-heroku/styles.css" rel="stylesheet" text="text/css" />
-
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Asul|Open+Sans" rel="stylesheet">
+  <!-- <link href="https://www.andymillion.com/the-office-heroku/styles.css" rel="stylesheet" text="text/css" /> -->
+  <link href="../styles.css" rel="stylesheet" text="text/css" />
 </head>
+
 <body>
-<div class ="main-background-image image-fade">
-  <header class="">
+<div class ="container">
+  <header>
     <h1 class="title">The Office - Lorem Ipsum Generator</h1>
   </header>  
   
-  <div class='transparent-box'>
+  <div class="generator">
     <h2 class="description">How many paragraphs would you like?</h2>
-
     <form action="/" method="POST">
-      <input type="number" class="paragraph-number" name="numberOfParagraphs">
-      <input type="submit" value="Generate" class="generate-button">
+      <input type="number" value=1 class="paragraph-number" name="numberOfParagraphs">
+      <input type="submit" value="Generate Text" class="generate-button">
     </form>
-  </div>
-    
+  </div>    <!-- End generator div -->
 
-    
-  </div>
+ 
   <div class="generated-text">
-      <div class='placeholder-div'></div>
-    </div>
+      <div class="placeholder-div"><p>Taste the happy, Michael. Taste it. It tastes kind of like sad. Taste the happy, Michael! Taste it! She wanted to look 48. I nearly airbrushed her into oblivion. Ended up checking "albino" on the form. No. I was ashamed to be _seen_ with you. I like being with you. George Bush doesn't care about black puppets. I don't care if it takes from now till the end of Shrimpfest. I don't criticize you! And if you're worried about criticism, sometimes a diet is the best defense.</p></div>
+  </div>
+
+  <div class="copyright">
+    <p>All quotes are &copy; <a href = "https://www.nbc.com/">NBC</a></p>
+  </div>
+</div>    <!-- End container div -->
 </body>
 </html>

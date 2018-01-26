@@ -1,62 +1,102 @@
-* {
-    font-family: 'Roboto', sans-serif;   
+* { 
     margin: 0;
     padding: 0; 
     box-sizing: border-box;
-}
-h1 {
-    font-family: 'Bungee', cursive;
     text-align: center;
-    color: rgb(24, 0, 158);
-    font-size: 2.5em;
-    padding: 20px 40px;
+    background-color: #272727;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
-h2 {
-    font-weight: bold;
-    color: #000000;
-    font-size: 1.8em;
+html {
+    font-size: 16px;
 }
-p {
-    color: black;
+
+h1 {
+    font-family: 'Asul', sans-serif;
+    letter-spacing: .2rem;
+    font-size: 3em;
+}
+
+header {
+    padding: 1.5rem;
+    border-bottom: .01rem solid rgb(172, 172, 172);
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.generator {
+
+}
+
+.description {
+    padding: 1.5rem 0 1.5rem 0;
+    /* border: .08rem solid red; */
 }
 
 form {
-    text-align: center;
-    display: block;
+    padding: 0rem 0rem 1.5rem 0rem;
+    font-size: 5rem;
 }
 
-/* Full-width background image: */
-.main-background-image {
-    padding-top: 50px;
-    height: 850px;
+.paragraph-number {
+    width: 90%;
+    border: .1rem solid rgba(0,0,0,.08);
+	padding: 1rem;
+    border-radius: .3rem;
+    font-size: 1.2rem;
+}
 
-    background-image: url('https://pogd.es/assets/bg/The-Office-US.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;  /*   displays the full image while maintaining the width and height proportions */
-  }
+.paragraph-number:focus {
+  outline: none;
+  border-bottom: .2rem solid #999999;
+}
 
-.image-fade{
-    -webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-  }
-    .transparent-box {
-        background: rgba(255, 255, 255, 0.2);
-        padding: 15px 25px;
-    }
-.description {
-    text-align: center;
-    padding: 15px 25px;
+.generate-button {
+    width: 90%;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: .1rem solid rgba(0,0,0,1);
+    background-color: #494949;
+}
+
+/* -- Generated Text -- */
+.generated-text {
+ width: 90%;
+ margin: 0 auto;
+
+}
+.placeholder-div {
+    text-indent: 3rem;
+    padding: 1.5rem 2rem;
+}
+
+.placeholder-div p {
+    text-align: left;
+    font-size: 1rem;
+    color: red;
+}
+
+/* -- Copyright Text -- */
+.copyright p {
+    margin-top: 1rem;
+    font-size: .6rem;
+    color: rgb(143, 143, 143);
+}
+.copyright a:link,
+.copyright a:visited {
+    color: rgb(143, 143, 143);
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
     
 }
-form input {
-    font-size: 1.5em;
-}
-.generated-text{
-    font-size: 1.5em;
-    width: 100%;
-    padding: 5% 20%;
-}
-.placeholder-div{
-    border: none;
+
+@media (min-width: 1024px) {
+    
 }
