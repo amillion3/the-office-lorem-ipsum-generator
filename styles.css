@@ -67,9 +67,8 @@ form {
 
 .generated-text {
     width: 90%;
-    height: auto;
     margin: 0 auto;
-    display: none;
+    /* display: none; */
 }
 /* Maybe try swapping out display: none into the .placeholder-div ? */
 .placeholder-div {
@@ -79,9 +78,8 @@ form {
     -moz-box-shadow: 10px 10px 40px 1px rgba(94,94,94,0.4);
     box-shadow: 10px 10px 40px 1px rgba(94,94,94,0.4);
     width: 90%;
-    height: auto;
     margin: 0 auto;
-    display: none;
+    /* display: none; */
 }
 
 .placeholder-div p {
