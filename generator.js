@@ -132,10 +132,10 @@ GenerateNewText.prototype.getAllParagraphs = function(numberOfParagraphs) {
     // Convert array into HTML string
     let paragraphHTML = "";
     allParagraphs.forEach(function (paragraph) {
-      paragraphHTML += "<p>" + paragraph + "</p>" + "<br>" + "<br>";
+      paragraphHTML += "<p>" + paragraph + "</p>";
       console.log(paragraphHTML);
     });
     return paragraphHTML;
   }
-  
+  // + "<br>" + "<br>"
   module.exports = loremIpsum;
