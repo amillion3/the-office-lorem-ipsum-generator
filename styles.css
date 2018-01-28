@@ -70,6 +70,7 @@ form {
     margin: 0 auto;
     text-align: left;
     text-indent: 3rem;
+    display: none;
 }
 .placeholder-div {
     text-align: left;
@@ -94,17 +95,6 @@ form {
     color: rgb(143, 143, 143);
     text-decoration: none;
 }
-
-.container-box {
-    display: none;
-    /* border: 2px solid red; */
-}
-
-
-/* .text-box {
-    display: none;
-} */
-
 
 @media (min-width: 768px) {
     .paragraph-number {
