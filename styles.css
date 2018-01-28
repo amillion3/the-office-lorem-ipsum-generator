@@ -66,20 +66,12 @@ form {
 /* -- Generated Text -- */
 
 .generated-text {
-    display: block;
-    color: red;
-    outline: 1px solid red;
+    width: 90%;
+    margin: 0 auto;
 }
 .placeholder-div {
-    display: block;
-    color: blue;
-    outline: 1px solid blue;
-    width: 600px;
-    height: 600px;
 }
 p {
-    font-size: 3em;
-    color: purple;
 }
 
 
