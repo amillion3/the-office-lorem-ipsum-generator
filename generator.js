@@ -132,7 +132,7 @@ GenerateNewText.prototype.getAllParagraphs = function(numberOfParagraphs) {
   // Convert array into HTML string
   let paragraphHTML = "";
   allParagraphs.forEach(function (paragraph) {
-    paragraphHTML += "<p>" + paragraph + "</p>" + "<br>";
+    paragraphHTML += "<p class="lorem-ipsum-text">" + paragraph + "</p>" + "<br>";
   });
   return paragraphHTML;
 }

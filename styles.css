@@ -86,14 +86,15 @@ form {
     text-align: left;
     font-size: 4rem;
     text-indent: 3rem;
-    color: #000
+    color: red;
+    /* color: #000 */
 }
-/* .placeholder-div p {
+.lorem-ipsum-text {
     text-align: left;
     font-size: 4rem;
     text-indent: 3rem;
     color: #000
-} */
+}
     
 /* -- Copyright Text -- */
 
