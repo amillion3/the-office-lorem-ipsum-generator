@@ -95,6 +95,17 @@ form {
     text-decoration: none;
 }
 
+.container-box {
+    display: none;
+    /* border: 2px solid red; */
+}
+
+
+/* .text-box {
+    display: none;
+} */
+
+
 @media (min-width: 768px) {
     .paragraph-number {
         width: 10%;

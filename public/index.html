@@ -2,8 +2,8 @@
 <head>
   <meta name="viewport" content="width=device-width">
   <link href="https://fonts.googleapis.com/css?family=Asul|Open+Sans" rel="stylesheet">
-  <link href="https://www.andymillion.com/the-office-heroku/styles.css" rel="stylesheet" text="text/css" />
-  <!-- <link href="../styles.css" rel="stylesheet" text="text/css" /> -->
+  <!-- <link href="https://www.andymillion.com/the-office-heroku/styles.css" rel="stylesheet" text="text/css" /> -->
+  <link href="../styles.css" rel="stylesheet" text="text/css" />
 </head>
 <body>
   <div class="container">
@@ -14,13 +14,20 @@
       <h2 class="description">How many paragraphs would you like?</h2>
       <div class="counters">
         <form action="/" method="POST">
-          <input type="number" class="paragraph-number" name="numberOfParagraphs" min="1">
-          <input type="submit" value="Generate Text" class="generate-button">
+          <input type="number" class="paragraph-number" name="numberOfParagraphs" min="1" max="20">
+          <input type="submit" value="Generate Text" class="generate-button" id="button">
+          <!-- <input type="submit" value="TEST TEST TEST TEST" id="button"> -->
         </form>
       </div>
     </div>
     <!-- End generator div -->
     
+    <!-- <div class="container-box">
+      <div class="text-box">
+        <p>hello!</p>
+      </div>
+    </div> -->
+
     <div class="generated-text" id="targetText">
       <div class='placeholder-div'></div>
     </div>
@@ -34,5 +41,6 @@
     </div>
   
   </div>   <!-- End container div -->
+  <script src="../main.js"></script>
 </body>
 </html>
