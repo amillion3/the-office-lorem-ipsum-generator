@@ -5,49 +5,40 @@
     color: #000;
     font-family: 'Open Sans', sans-serif;
 }
-
 html {
     font-size: 16px;
 }
-
 h1 {
     font-family: 'Asul', sans-serif;
     letter-spacing: .2rem;
     font-size: 3em;
 }
-
 p {
     text-align: left;
     font-size: 1rem;
     text-indent: 3rem;
     color: #000;
 }
-
 header {
     padding: 1.5rem;
     border-bottom: .01rem solid #999999;
     text-align: center;
 }
-
 .container {
     width: 100%;
     margin: 0 auto;
 }
-
 .description {
     padding: 1.5rem 0 1.5rem 0;
     text-align: center;
 }
-
 .counters {
     text-align: center;
 }
-
 form {
     padding: 0rem 0rem 1.5rem 0rem;
     font-size: 5rem;
 }
-
 .paragraph-number {
     width: 90%;
     border: .1rem solid rgba(0, 0, 0, .08);
@@ -55,12 +46,10 @@ form {
     border-radius: .3rem;
     font-size: 1.2rem;
 }
-
 .paragraph-number:focus {
     outline: none;
     border-bottom: .2rem solid #999999;
 }
-
 .generate-button {
     width: 90%;
     margin-top: 1rem;
@@ -69,7 +58,6 @@ form {
     border: .1rem solid rgba(0, 0, 0, .08);
     background-color: #fff;
 }
-
 .generate-button:hover {
     outline: none;
     border-bottom: .2rem solid #999999;
@@ -82,7 +70,6 @@ form {
     margin: 0 auto;
     text-align: left;
     text-indent: 3rem;
-    color: red;
 }
 .placeholder-div {
     text-align: left;
@@ -102,7 +89,6 @@ form {
     font-size: .6rem;
     color: rgb(143, 143, 143);
 }
-
 .copyright a:link,
 .copyright a:visited {
     color: rgb(143, 143, 143);
