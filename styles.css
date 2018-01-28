@@ -68,16 +68,15 @@ form {
 .generated-text {
     width: 90%;
     margin: 0 auto;
+    display: none;
 }
 
 .placeholder-div {
-    display: none;
     text-indent: 3rem;
     padding: 1.5rem 2rem;
     -webkit-box-shadow: 10px 10px 40px 1px rgba(94,94,94,0.4);
     -moz-box-shadow: 10px 10px 40px 1px rgba(94,94,94,0.4);
     box-shadow: 10px 10px 40px 1px rgba(94,94,94,0.4);
-    display: initial;
     width: 90%;
     margin: 0 auto;
 }

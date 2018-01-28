@@ -1,3 +1,3 @@
 function displayLoremTextBox() {
-    placeholder-div.style.display="block";
+    generated-text.style.display="block";
 }
