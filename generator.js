@@ -124,17 +124,17 @@ GenerateNewText.prototype.getParagraph = function() {
 
 // Method to the GenerateNewText constructor function that generates multiple paragraphs from paragraphs
 GenerateNewText.prototype.getAllParagraphs = function(numberOfParagraphs) {
-    let allParagraphs = [];
-    // Generate the number of paragraphs as specified by the user
-    while (allParagraphs.length < numberOfParagraphs) {
-      allParagraphs.push(this.getParagraph());
-    }
-    // Convert array into HTML string
-    let paragraphHTML = "";
-    allParagraphs.forEach(function (paragraph) {
-      paragraphHTML += "<p>" + paragraph + "</p>" + "<br>" + "<br>";
-    });
-    return paragraphHTML;
+  let allParagraphs = [];
+  // Generate the number of paragraphs as specified by the user
+  while (allParagraphs.length < numberOfParagraphs) {
+    allParagraphs.push(this.getParagraph());
   }
+  // Convert array into HTML string
+  let paragraphHTML = "";
+  allParagraphs.forEach(function (paragraph) {
+    paragraphHTML += "<p>" + paragraph + "</p>";
+  });
+  return paragraphHTML;
+}
 
   module.exports = loremIpsum;
