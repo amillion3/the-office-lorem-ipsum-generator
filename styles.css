@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-align: center;
     color: #000;
     font-family: 'Open Sans', sans-serif;
 }
@@ -20,6 +19,7 @@ h1 {
 header {
     padding: 1.5rem;
     border-bottom: .01rem solid #999999;
+    text-align: center;
 }
 
 .container {
@@ -29,6 +29,11 @@ header {
 
 .description {
     padding: 1.5rem 0 1.5rem 0;
+    text-align: center;
+}
+
+.counters {
+    text-align: center;
 }
 
 form {
@@ -68,22 +73,27 @@ form {
 .generated-text {
     width: 90%;
     margin: 0 auto;
+    text-align: left;
 }
 .placeholder-div {
-    
-    text-indent: 3rem;
+    text-align: left;
     padding: 1.5rem 2rem;
-    -webkit-box-shadow: 10px 10px 40px 1px rgba(94,94,94,0.4);
-    -moz-box-shadow: 10px 10px 40px 1px rgba(94,94,94,0.4);
-    box-shadow: 10px 10px 40px 1px rgba(94,94,94,0.4);
     width: 90%;
     margin: 0 auto;
-}
-.placeholder-div p {
+
+
+
     text-align: left;
-    font-size: 1rem;
+    font-size: 4rem;
+    text-indent: 3rem;
     color: #000
 }
+/* .placeholder-div p {
+    text-align: left;
+    font-size: 4rem;
+    text-indent: 3rem;
+    color: #000
+} */
     
 /* -- Copyright Text -- */
 
@@ -91,6 +101,7 @@ form {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
     padding-top: 0.5rem;
+    text-align: center;
     border-top: .01rem solid #999999;
     font-size: .6rem;
     color: rgb(143, 143, 143);
