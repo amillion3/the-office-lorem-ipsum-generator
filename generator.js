@@ -133,6 +133,7 @@ GenerateNewText.prototype.getAllParagraphs = function(numberOfParagraphs) {
     let paragraphHTML = "";
     allParagraphs.forEach(function (paragraph) {
       paragraphHTML += "<p>" + paragraph + "</p>" + "<br>" + "<br>";
+      console.log(paragraphHTML);
     });
     return paragraphHTML;
   }

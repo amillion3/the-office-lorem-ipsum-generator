@@ -1,15 +1,13 @@
-// function displayLoremTextBox() {
-//     // generated-text.style.display="block";
-//     document.getElementById("generated-text").style.display="block";
-// }
+// Get the div for lorem ipsum text (returns an array)
+var loremDiv = document.getElementsByClassName("generated-text");
+var loremDivText = document.getElementsByClassName("placeholder-div");
 
-// Get the modal
-var loremDiv = document.getElementById("generated-text");
+// Get the button that generates text (returns an array)
+var btn = document.getElementsByClassName("generate-button");
 
-// Get the button that opens the modal
-var btn = document.getElementById("generate-button");
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-    loremDiv.style.display = "block";
+// When the user clicks the button, display the lorem ipsum div
+btn[0].onclick = function(e) {
+    e.preventDefault();  //prevents page from reloading
+    loremDiv[0].style.display="block";
+    loremDivText[0].style.display="block";
 }
