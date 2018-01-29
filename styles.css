@@ -73,10 +73,12 @@ form {
     display: none;
 }
 .placeholder-div {
+    display: none;
     text-align: left;
     padding: 1.5rem 2rem;
     width: 90%;
     margin: 0 auto;
+    color:red;
 }
     
 /* -- Copyright Text -- */
