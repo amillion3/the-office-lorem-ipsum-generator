@@ -37,7 +37,6 @@ header {
 }
 form {
     padding: 0rem 0rem 1.5rem 0rem;
-    font-size: 5rem;
 }
 .paragraph-number {
     width: 90%;
@@ -160,13 +159,15 @@ form {
         width: 40%;
         margin-top: 0rem;
     }
-    .description {
-        padding: 0rem 0rem 2.8rem 0rem;
-    }
     form {
-        padding: 0rem 0rem 0rem 0rem;
-        margin: 0rem 0rem 0rem 0rem;
+        padding: 0rem 0rem 1.5rem 0rem;
     }
+
+    .description {
+        padding: 1.5rem 0 1.5rem 0;
+        text-align: center;
+    }
+
     .generated-text-container{
         width: 90%;
         padding-top: 0rem;
