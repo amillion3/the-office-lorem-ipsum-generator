@@ -160,10 +160,8 @@ form {
         width: 40%;
         margin-top: 0rem;
     }
-    form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    .description {
+        padding: 0rem 0rem 2.8rem 0rem;
     }
     form {
         padding: 0rem 0rem 0rem 0rem;
@@ -171,7 +169,6 @@ form {
     }
     .generated-text-container{
         width: 90%;
-        /* margin-top: 0rem; */
         padding-top: 0rem;
     }
 }
