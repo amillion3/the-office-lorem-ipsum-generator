@@ -65,9 +65,15 @@ form {
 
 /* -- Generated Text -- */
 
-.generated-text {
+.generated-text-container{
     width: 90%;
     margin: 0 auto;
+    display: flex;
+}
+
+.generated-text {
+    /* width: 90%;
+    margin: 0 auto; */
     text-align: left;
     text-indent: 3rem;
 }
@@ -84,8 +90,8 @@ form {
     position:relative;
     float:left;
     width:100%;
-    /*padding:1em;*/
-    margin:2em 10px 4em;
+    padding:1em;
+    margin:3rem 3rem 3rem 3rem;
     background:#fff;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
     -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
