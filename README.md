@@ -1,4 +1,3 @@
-# the-office-lorem-ipsum-generator
 # The Office - lorem ipsum text generator
 Lorem ipsum generator, The Office (US) style!
 
