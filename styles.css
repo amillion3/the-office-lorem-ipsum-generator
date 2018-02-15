@@ -67,13 +67,15 @@ form {
 .generated-text-container{
     width: 100%;
     margin: 0 auto;
-    /* display: none;    need to use this as default and switch to display: flex after button click */
-    display: flex;
+    display: none;
+    /*need to use this as default and switch to display: flex after button click*/
+    /* display: flex; */
 }
 .generated-text {
     text-align: left;
     text-indent: 3rem;
 }
+
 .placeholder-div {
     text-align: left;
     padding: 1.5rem 2rem;
