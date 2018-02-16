@@ -1,15 +1,16 @@
-var button = document.getElementById("button");
+// var button = document.getElementById("button");
 
-button.onclick = function(e) {
-    e.preventDefault();
-    console.log("clicked");
-    var div1 = document.getElementById("lorem-ipsum");
-    var div2 = document.getElementsByClassName("placeholder-div")[0];
-    console.log(div1);
-    console.log(div2);
-    div1.style.display = "flex";
-    div2.style.display = "flex";
-};
+// button.onclick = function(e) {
+//     // debugger;
+//     e.preventDefault();
+//     console.log("clicked");
+//     var div1 = document.getElementById("lorem-ipsum");
+//     var div2 = document.getElementsByClassName("placeholder-div")[0];
+//     console.log(div1);
+//     console.log(div2);
+//     div1.style.display = "flex";
+//     // div2.style.display = "flex";
+// };
 
 
 // var innerContents = document.getElementsByClassName("generated-text")[0].innerHTML;

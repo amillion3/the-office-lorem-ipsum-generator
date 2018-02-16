@@ -67,9 +67,9 @@ form {
 .generated-text-container{
     width: 100%;
     margin: 0 auto;
-    display: none;
+    /* display: none; */
     /*need to use this as default and switch to display: flex after button click*/
-    /* display: flex; */
+    display: flex;
 }
 .generated-text {
     text-align: left;
